@@ -65,6 +65,8 @@ export default defineConfig({
   description:
     'TagPiper is the lightweight, open-source server-side tagging alternative: a fast, self-hosted server-side tag manager that runs Google sGTM templates.',
   lang: 'en-US',
+  // Light by default, whatever the system setting. The toggle still switches to dark.
+  appearance: { initialValue: 'light' },
 
   base,
 
